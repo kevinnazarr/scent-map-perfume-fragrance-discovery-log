@@ -1,1 +1,5 @@
-# scent-map-perfume-fragrance-discovery-log
+# Scent Map: Perfume & Fragrance Discovery Log
+
+You're building a single-page app for fragrance enthusiasts to catalog every perfume, cologne, or scented product they've tried. Each entry captures the fragrance name, brand, scent family (floral, woody, citrus, oriental, fresh, etc.), a personal rating from 1–5 noses, a short tasting-note-style description, and a status tag: **Tried**, **Own It**, or **Want It**. 
+
+The main view is a scrollable card grid where each fragrance card shows the name, brand, scent family badge (color-coded by family), the nose rating as emoji, and the status tag. Users can filter the grid by scent family or status, and search by name or brand in real time. Clicking a card opens an inline detail panel to edit or delete the entry. A small summary strip at the top shows total entries, how many are owned, and how many are on the want list. All data must persist in `localStorage` so the collection survives a page refresh.
