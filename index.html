@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Scent Map is a personal fragrance discovery log for cataloguing the perfumes you have tried, own, or want."
+    />
+    <meta name="theme-color" content="#f7f2e9" />
+    <title>Scent Map — Fragrance Discovery Log</title>
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232b2621'/%3E%3Ccircle cx='16' cy='12' r='5' fill='%23c08a3e'/%3E%3Cpath d='M12.5 19h7v6.5a3.5 3.5 0 0 1-7 0z' fill='%23e8dcc8'/%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to my collection</a>
+
+    <div id="app"></div>
+
+    <noscript>
+      <div class="noscript">
+        <h1>Scent Map needs JavaScript</h1>
+        <p>
+          Scent Map keeps your fragrance log in this browser using
+          <code>localStorage</code>. Please enable JavaScript to catalogue
+          perfumes, rate them with noses, and revisit your notes.
+        </p>
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

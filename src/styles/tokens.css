@@ -1,0 +1,130 @@
+:root {
+  --paper-50: #fdfbf7;
+  --paper-100: #f7f2e9;
+  --paper-200: #efe6d7;
+  --paper-300: #e3d7c3;
+  --ink-900: #241f1a;
+  --ink-700: #453a2f;
+  --ink-500: #6d5f4f;
+  --ink-400: #8b7c6a;
+  --ink-300: #a99b89;
+
+  --surface: #fffdfa;
+  --surface-raised: #ffffff;
+  --surface-sunken: var(--paper-100);
+
+  --border: rgba(36, 31, 26, 0.13);
+  --border-strong: rgba(36, 31, 26, 0.24);
+  --border-hairline: rgba(36, 31, 26, 0.08);
+
+  --accent: #8c5a29;
+  --accent-strong: #6d4520;
+  --accent-soft: #f6ead7;
+  --accent-ink: #43290f;
+
+  --botanical: #45664d;
+  --botanical-soft: #e9f0e8;
+
+  --focus: #1d4f70;
+  --focus-ring: rgba(29, 79, 112, 0.35);
+
+  --success: #3d6a44;
+  --success-bg: #eaf3e9;
+  --success-ink: #294a2e;
+
+  --warning: #8a6220;
+  --warning-bg: #fbf2de;
+  --warning-ink: #664711;
+
+  --error: #a33a2c;
+  --error-bg: #fbeae6;
+  --error-ink: #7b281c;
+
+  --info: #47687a;
+  --info-bg: #e9f0f4;
+  --info-ink: #2f4c5b;
+
+  --family-floral-bg: #fbeef1;
+  --family-floral-ink: #8b3b51;
+  --family-floral-dot: #b3607a;
+
+  --family-woody-bg: #f4ece1;
+  --family-woody-ink: #6a4a2b;
+  --family-woody-dot: #8a6a4b;
+
+  --family-citrus-bg: #fdf2da;
+  --family-citrus-ink: #7a5711;
+  --family-citrus-dot: #c08a2e;
+
+  --family-oriental-bg: #f4ecf3;
+  --family-oriental-ink: #693d61;
+  --family-oriental-dot: #7a4a6d;
+
+  --family-fresh-bg: #e9f2f1;
+  --family-fresh-ink: #2d605a;
+  --family-fresh-dot: #3f7d78;
+
+  --family-aromatic-bg: #eef2e7;
+  --family-aromatic-ink: #4b5f34;
+  --family-aromatic-dot: #6f8a4a;
+
+  --status-tried-bg: #eef0f2;
+  --status-tried-ink: #45515c;
+  --status-own-bg: var(--botanical-soft);
+  --status-own-ink: #2f5037;
+  --status-want-bg: #fdf3e2;
+  --status-want-ink: #7a5312;
+
+  --font-ui: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --font-hand: 'Caveat', 'Segoe Script', cursive;
+
+  --text-2xs: 0.6875rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: clamp(1.9rem, 1.4rem + 2vw, 2.6rem);
+
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.55;
+
+  --tracking-wide: 0.08em;
+  --tracking-wider: 0.14em;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Shape ------------------------------------------------------ */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 26px;
+  --radius-pill: 999px;
+
+  --shadow-xs: 0 1px 2px rgba(36, 31, 26, 0.05);
+  --shadow-sm: 0 1px 3px rgba(36, 31, 26, 0.07), 0 1px 2px rgba(36, 31, 26, 0.04);
+  --shadow-md: 0 6px 18px -8px rgba(36, 31, 26, 0.22), 0 2px 6px rgba(36, 31, 26, 0.05);
+  --shadow-lg: 0 18px 40px -18px rgba(36, 31, 26, 0.3), 0 4px 10px rgba(36, 31, 26, 0.06);
+
+  --transition: 160ms ease;
+  --transition-slow: 260ms ease;
+
+  /* Layout ----------------------------------------------------- */
+  --content-max: 1180px;
+  --measure: 62ch;
+  --control-height: 2.75rem;
+}

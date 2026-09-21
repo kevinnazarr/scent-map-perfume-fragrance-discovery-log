@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+package-lock.json
+*.local
+.DS_Store
+
+# VibeDev quest memory lives alongside the code but is not part of the
+# submission (and not part of the gzipped size budget).
+vibedev/
+.omo/
